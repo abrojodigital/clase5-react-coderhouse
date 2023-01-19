@@ -5,7 +5,7 @@ import './style.css';
 export default function App() {
   const [contador, setContador] = useState(0);
   const [ahora, setAhora] = useState(new Date(Date.now()).toUTCString());
-
+  console.log(ahora)
   return (
     <div>
       <p>Cliqueaste {contador} veces</p>
